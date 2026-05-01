@@ -1,0 +1,65 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.cabecalho{
+    background-color:goldenrod;
+    padding: 10px 0px;
+    width: 100%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.caixa {
+    width: 100%;
+    margin: auto;
+
+}
+
+.logo {
+    margin: 0;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 1200px;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.hmenu{
+    background: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.hmenu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hmenu ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+
+.hmenu ul li a {
+    color: midnightblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.hmenu ul li a:hover {
+    color: rgb(238, 137, 21);
+    border-bottom: 1px solid rgb(238, 137, 21);
+}
+
