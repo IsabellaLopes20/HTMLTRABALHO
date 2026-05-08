@@ -1,0 +1,10 @@
+.youtube-planetas{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.youtube-planetas iframe{
+    border-radius: 20px;
+    box-shadow: 0 0 20px deepskyblue;
+}
