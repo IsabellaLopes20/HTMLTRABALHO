@@ -1,0 +1,112 @@
+.divform {
+    width: 900px;
+    max-width: 90%;
+    background-color: rgba(255,255,255,0.05);
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid deepskyblue;
+    box-shadow: 0 0 20px deepskyblue;
+    margin: 40px auto;
+    color: white;
+    font-family: "Exo 2", sans-serif;
+}
+
+.divform select option {
+    background-color: black;
+    color: white;
+}
+
+.divform fieldset {
+    border: none;
+}
+
+.divform legend {
+    font-family: "Orbitron", sans-serif;
+    font-size: 28px;
+    color: deepskyblue;
+    margin-bottom: 20px;
+}
+
+.lable {
+    font-size: 20px;
+    padding: 8px 0 6px 0;
+    color: white;
+}
+
+.divform input[type=text],
+.divform input[type=email],
+.divform input[type=tel] {
+    width: 100%;
+    padding: 12px;
+    margin: 6px 0 15px 0;
+    box-sizing: border-box;
+    border: 2px solid deepskyblue;
+    border-radius: 8px;
+    background-color: rgba(255,255,255,0.08);
+    color: white;
+    font-size: 16px;
+    font-family: "Exo 2", sans-serif;
+}
+
+.divform select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid deepskyblue;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: rgba(255,255,255,0.08);
+    color: white;
+    margin-bottom: 15px;
+    font-family: "Exo 2", sans-serif;
+}
+
+.minhaTextarea {
+    width: 100%;
+    padding: 12px;
+    resize: none;
+    box-sizing: border-box;
+    border: 2px solid deepskyblue;
+    border-radius: 8px;
+    font-family: "Exo 2", sans-serif;
+    font-size: 16px;
+    background-color: rgba(255,255,255,0.08);
+    color: white;
+}
+
+.botoes input[type=reset],
+.botoes input[type=submit] {
+    background-color: deepskyblue;
+    color: black;
+    padding: 10px 28px;
+    font-size: 18px;
+    margin: 15px 5px 0 0;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    font-family: "Orbitron", sans-serif;
+    transition: 0.3s;
+}
+
+.botoes input:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px deepskyblue;
+}
+.botoes input[type=reset],
+.botoes input[type=submit] {
+    background-color: deepskyblue;
+    color: black;
+    padding: 12px 30px;
+    font-size: 18px;
+    margin-right: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    font-family: "Orbitron", sans-serif;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.botoes input:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px deepskyblue;
+}
